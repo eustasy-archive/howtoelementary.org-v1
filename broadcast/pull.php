@@ -27,10 +27,10 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		// git clean -f -d			// Remove junk files.
 		// git pull					// Get the latest version.
 
-		$Pull_Output = nl2br( shell_exec('git reset --hard HEAD && git clean -f -d && git pull') ); // Capture the output.
+		$Pull_Output = shell_exec('git reset --hard HEAD && git clean -f -d && git pull'); // Capture the output.
 
 	} else { // Or not.
-		$Pull_Output = nl2br( shell_exec('git reset --hard HEAD') ); // Just tell us where we are
+		$Pull_Output = shell_exec('git reset --hard HEAD'); // Just tell us where we are
 	}
 
 // That is all.
@@ -38,7 +38,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	require '../header.php';
 
 	echo '<h2>Pull</h2>';
-	echo '<h3>' . $Pull_Output . '</h3>';
+	echo '<pre>' . $Pull_Output . '</pre>';
 
 	require '../footer.php';
 
