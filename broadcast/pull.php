@@ -12,7 +12,7 @@
 if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	// This is the GitPull file. The correct URL to active it is:
-	// http://eustasy.org/pull?auth=clfx9azu80bu584dxcogmhz3lcvi4wm77sv7sksqata6s49g6omjvbd7eyf8ls6j
+	// http://howtoelementaryos.org/pull?auth=clfx9azu80bu584dxcogmhz3lcvi4wm77sv7sksqata6s49g6omjvbd7eyf8ls6j
 
 	$Pull_Auth = htmlentities($_GET['auth'], ENT_QUOTES, 'UTF-8'); // Encode auth before using it.
 
