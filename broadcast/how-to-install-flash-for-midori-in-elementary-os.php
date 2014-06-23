@@ -19,7 +19,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 <p>If you're not interested in how this works, skip to the next paragraph for the "how to" bit. Okay, the reason why Midori won't work with Flash nicely is fairly simple, and is rooted in it's code base. The way it accesses extensions requires them to be in 32bit, regardless of whether or not the system it is running on is. By default, however, elementary will only install the same architecture of Flash as your system. This set of commands downloads and extracts a 32bit copy of Flash, from their site.</p>
 <div class="section group">
 	<div class="col span_1_of_2">
-		<p>This one single method will work in both 64bit and 32bit systems by using the 32bit flash natively, or emulating it with ia32-libs. Either way, it uses <span class="code">nspluginwrapper</span>. You can download and execute this file or just copy and paste the whole block into your terminal, then follow the on-screen instructions. That doesn't work. Note that you may have to enable the extension (typically named <span class="code">Shockwave Flash</span>) in the Midori preferences, and then test your installation by visiting <a href="http://www.adobe.com/software/flash/about/">adobe.com/software/flash/about/</a>. Tested in elementary, but should work in any Debian/Ubuntu based system.</p>
+		<p>This one single method will work in both 64bit and 32bit systems by using the 32bit flash natively, or emulating it. Either way, it uses <span class="code">nspluginwrapper</span>, which will pull in a lot of libraries (packages), but most of them should be quite small. You can download and execute this file or just copy and paste the whole block into your terminal, then follow the on-screen instructions. DO NOT run as SUDO. That doesn't work. Note that you may have to enable the extension (typically named <span class="code">Shockwave Flash</span>) in the Midori preferences, and then test your installation. <a href="http://www.adobe.com/software/flash/about/">adobe.com/software/flash/about/</a> Tested in elementary, but should work in any Debian based system.</p>
 	</div>
 	<div class="col span_1_of_2">
 		<div class="infobox warning">
@@ -39,7 +39,7 @@ rm install_flash_player_11_linux.i386.tar.gz &&
 if [ $(getconf LONG_BIT) = '64' ]
 then
 	mv libflashplayer.so ~/.mozilla/plugins/libflashplayer.32.so &&
-	sudo apt-get install nspluginwrapper ia32-libs
+	sudo apt-get install nspluginwrapper:i386 libnss3:i386
 else
 	mv libflashplayer.so ~/.mozilla/plugins/libflashplayer.so &&
 	sudo apt-get install nspluginwrapper
