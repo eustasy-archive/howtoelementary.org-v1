@@ -29,7 +29,22 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		</div>
 	</div>
 </div>
-<textarea class="resize clickselect"><?php echo file_get_contents('https://gist.github.com/lewisgoddard/6223985/raw/4a94cb92b7d8d5109dfe19e208418c41717cdfec/install_flash_for_midori.sh'); ?></textarea>
+<textarea class="resize clickselect">clear &&
+echo 'Installing Flash for Midori' &&
+read -p 'Press Enter to continue, or abort by pressing CTRL+C' nothing &&
+mkdir -p ~/.mozilla/plugins &&
+wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.378/install_flash_player_11_linux.i386.tar.gz &&
+tar -zxvf install_flash_player_11_linux.i386.tar.gz libflashplayer.so &&
+rm install_flash_player_11_linux.i386.tar.gz &&
+if [ $(getconf LONG_BIT) = '64' ]
+then
+	mv libflashplayer.so ~/.mozilla/plugins/libflashplayer.32.so &&
+	sudo apt-get install nspluginwrapper ia32-libs
+else
+	mv libflashplayer.so ~/.mozilla/plugins/libflashplayer.so &&
+	sudo apt-get install nspluginwrapper
+fi &&
+nspluginwrapper -a -v -n -i</textarea>
 <div class="clear"></div>
 <div class="section group">
 	<div class="col span_1_of_2">
