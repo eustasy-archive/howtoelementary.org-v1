@@ -33,17 +33,14 @@ if (substr($_SERVER['REQUEST_URI'], -4, 4) == '.php') {
 	<link rel="stylesheet" media="all" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic|Raleway:200,300,400">
 	<link rel="stylesheet" media="all" href="http://howtoelementaryos.org/style.css">
 
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-28932148-7']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-45667989-4', 'auto');
+		ga('send', 'pageview');
 	</script>
-
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects and Selectivisr -->
 	<script src="http://howtoelementaryos.org/scripts/modernizr.min.js"></script>
 	<!--[if (lt IE 9) & (!IEMobile)]><script src="http://howtoelementaryos.org/scripts/selectivizr.min.js"></script><![endif]-->
