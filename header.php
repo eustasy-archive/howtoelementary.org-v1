@@ -1,12 +1,4 @@
-<?php
-
-// This is a per-page 301 to strip trailing php extensions
-if (substr($_SERVER['REQUEST_URI'], -4, 4) == '.php') {
-	header ('HTTP/1.1 301 Moved Permanently');
-	header ('Location: http://howtoelementaryos.org'.rtrim($_SERVER['REQUEST_URI'], '.php'));
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
 <head>
 
