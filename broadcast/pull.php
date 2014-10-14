@@ -18,7 +18,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	// We can check for the payload to help stop attacks.
 	// isset($_POST['payload'])
 
-	if (isset($_GET['auth']) && $_GET['auth'] === 'clfx9azu80bu584dxcogmhz3lcvi4wm77sv7sksqata6s49g6omjvbd7eyf8ls6j' && isset($_REQUEST['payload']) ) {
+	if (isset($_GET['auth']) && $_GET['auth'] === 'clfx9azu80bu584dxcogmhz3lcvi4wm77sv7sksqata6s49g6omjvbd7eyf8ls6j' || isset($_REQUEST['payload']) ) {
 
 		// We're going to run a few commands now.
 		// git reset --hard HEAD	// Cleans out uncommitted changes.

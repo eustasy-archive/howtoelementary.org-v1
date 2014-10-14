@@ -18,12 +18,12 @@
 
 	<title><?php echo $WebTitle; ?></title>
 
-	<link rel="canonical" href="http://howtoelementaryos.org/<?php echo $Canonical; ?>">
+	<link rel="canonical" href="//howtoelementaryos.org/<?php echo $Canonical; ?>">
 	<link rel="publisher" href="https://plus.google.com/102500040175226797826">
-	<link rel="icon" href="http://www.eustasy.co.uk/favicon.ico">
-	<link rel="shortcut icon" href="http://www.eustasy.co.uk/favicon.ico">
+	<link rel="icon" href="http://eustasy.org/favicon.ico">
+	<link rel="shortcut icon" href="http://eustasy.org/favicon.ico">
 	<link rel="stylesheet" media="all" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic|Raleway:200,300,400">
-	<link rel="stylesheet" media="all" href="http://howtoelementaryos.org/style.css">
+	<link rel="stylesheet" media="all" href="//howtoelementaryos.org/css/style.css">
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,9 +33,20 @@
 		ga('create', 'UA-45667989-4', 'auto');
 		ga('send', 'pageview');
 	</script>
-	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects and Selectivisr -->
-	<script src="http://howtoelementaryos.org/scripts/modernizr.min.js"></script>
-	<!--[if (lt IE 9) & (!IEMobile)]><script src="http://howtoelementaryos.org/scripts/selectivizr.min.js"></script><![endif]-->
+
+	<!--[if (lt IE 9) & (!IEMobile)]><script src="//cdn.jsdelivr.net/g/selectivizr"></script><![endif]-->
+
+	<script>
+		var jQl={q:[],dq:[],gs:[],ready:function(a){"function"==typeof a&&jQl.q.push(a);return jQl},getScript:function(a,c){jQl.gs.push([a,c])},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},ungs:function(){for(var a=0;a<jQl.gs.length;a++)jQuery.getScript(jQl.gs[a][0],jQl.gs[a][1]);jQl.gs=[]},bId:null,boot:function(a){"undefined"==typeof window.jQuery.fn?jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(a)},25)):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),jQl.ungs(),jQuery(jQl.unq()), "function"==typeof a&&a())},booted:function(){return 0===jQl.bId},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script");b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){a&&("undefined"!==typeof window.jQuery.fn&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a))},unqjQdep:function(){if("undefined"==typeof window.jQuery.fn)setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]); jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text=a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){4!=b.readyState||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,!0),b.send("")}catch(d){}},getxo:function(){var a=!1;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a= new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}};if("undefined"==typeof window.jQuery){var $=jQl.ready,jQuery=$;$.getScript=jQl.getScript};
+		jQl.loadjQ('//cdn.jsdelivr.net/g/jquery,jquery.autosize');
+	</script>
+	<script>
+		$(function() {
+			$('textarea.resize').autosize();
+			$('.clickselect').one('click', function() { $(this).select(); });
+			$('.clickselect').dblclick(function() { $(this).select(); });
+		});
+	</script>
 
 </head>
 
@@ -44,7 +55,7 @@
 	<div id="skiptomain"><a href="#content">skip to main content</a></div>
 
 	<header>
-		<h1><a href="http://howtoelementaryos.org/">how to elementary os</a></h1>
+		<h1><a href="//howtoelementaryos.org/">how to elementary os</a></h1>
 		<!--
 		<nav class="section group">
 			<div class="col span_1_of_9">
@@ -73,9 +84,9 @@
 			</div>
 		-->
 			<div class="col span_1_of_9 floatright social">
-				<a rel="publisher" href="https://www.facebook.com/howtoelementaryos"><img src="http://howtoelementaryos.org/images/social-facebook.png"></a>
-				<a rel="publisher" href="https://plus.google.com/102500040175226797826"><img src="http://howtoelementaryos.org/images/social-google-plus.png"></a>
-				<a rel="publisher" href="https://twitter.com/howtoelementary"><img src="http://howtoelementaryos.org/images/social-twitter.png"></a>
+				<a rel="publisher" href="https://www.facebook.com/howtoelementaryos"><img src="//howtoelementaryos.org/images/social-facebook.png"></a>
+				<a rel="publisher" href="https://plus.google.com/102500040175226797826"><img src="//howtoelementaryos.org/images/social-google-plus.png"></a>
+				<a rel="publisher" href="https://twitter.com/howtoelementary"><img src="//howtoelementaryos.org/images/social-twitter.png"></a>
 			</div>
 		<!--
 		</nav>
