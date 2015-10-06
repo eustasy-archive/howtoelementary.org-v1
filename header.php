@@ -43,7 +43,7 @@
 	</script>
 	<script>
 		$(function() {
-			$('textarea.resize').autosize();
+			autosize($('textarea.resize'));
 			$('.clickselect').one('click', function() { $(this).select(); });
 			$('.clickselect').dblclick(function() { $(this).select(); });
 		});
