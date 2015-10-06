@@ -33,7 +33,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 echo 'Installing Flash for Midori' &&
 read -p 'Press Enter to continue, or abort by pressing CTRL+C' nothing &&
 mkdir -p ~/.mozilla/plugins &&
-wget https://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.457/install_flash_player_11_linux.i386.tar.gz &&
+wget https://fpdownload.adobe.com/get/flashplayer/pdc/11.2.202.521/install_flash_player_11_linux.i386.tar.gz &&
 tar -zxvf install_flash_player_11_linux.i386.tar.gz libflashplayer.so &&
 rm install_flash_player_11_linux.i386.tar.gz &&
 if [ $(getconf LONG_BIT) = '64' ]
@@ -64,8 +64,6 @@ Install plugin /home/user/.mozilla/plugins/libflashplayer.32.so</textarea>
 <div class="clear"></div>
 
 <div class="breaker"></div>
-
-
 
 <div class="section group">
 	<div class="col span_1_of_1">
