@@ -28,11 +28,11 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 <div class="section group">
 	<div class="col span_1_of_2">
 		<h3>Required Reading</h3>
-		<h4><a href="http://howtoelementaryos.org/how-to-install-dconf-tools-in-elementary-os">How to Install DConf-Tools</a></h4>
+		<h4><a href="/how-to-install-dconf-tools-in-elementary-os">How to Install DConf-Tools</a></h4>
 	</div>
 	<div class="col span_1_of_2">
 		<h3>Recommended Reading</h3>
-		<h4><a href="http://howtoelementaryos.org/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
+		<h4><a href="/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
 	</div>
 </div>
 

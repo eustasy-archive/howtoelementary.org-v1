@@ -3,7 +3,7 @@
 	$TextTitle = 'How to Install Flash for Midori';
 	$WebTitle = 'How to Install Flash for Midori in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
 	$Canonical = 'how-to-install-flash-for-midori-in-elementary-os';
-	$FeaturedImage = 'http://howtoelementaryos.org/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png';
+	$FeaturedImage = '/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png';
 	$Description = 'One of the most requested things when dealing with elementary OS is the lack of Flash. Instead of suggesting different ways for each architecture to deal with this issue, we have lovingly crafted a small script for the use of any elementary system.';
 	$Keywords = 'How to Install Flash Midori elementary os';
 	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
@@ -57,7 +57,7 @@ Install plugin /home/user/.mozilla/plugins/libflashplayer.32.so</textarea>
 		<p>That last line signifies a successful install. Remember to restart Midori if you had it open at the time, and enable the <span class="code">Shockwave Flash</span> extension in the preferences.</p>
 	</div>
 	<div class="col span_1_of_2">
-		 <a target="_blank" href="http://howtoelementaryos.org/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png"><img class="round floatright" alt="Midori Preferences - Extensions" src="http://howtoelementaryos.org/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png"></a>
+		 <a target="_blank" href="/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png"><img class="round floatright" alt="Midori Preferences - Extensions" src="/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png"></a>
 	</div>
 </div>
 
@@ -68,9 +68,9 @@ Install plugin /home/user/.mozilla/plugins/libflashplayer.32.so</textarea>
 <div class="section group">
 	<div class="col span_1_of_1">
 		<h3>Recommended Reading</h3>
-		<h4><a href="http://howtoelementaryos.org/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-silence-the-bell-in-elementary-os">How to Silence the Bell</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
+		<h4><a href="/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
+		<h4><a href="/how-to-silence-the-bell-in-elementary-os">How to Silence the Bell</a></h4>
+		<h4><a href="/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
 	</div>
 </div>
 

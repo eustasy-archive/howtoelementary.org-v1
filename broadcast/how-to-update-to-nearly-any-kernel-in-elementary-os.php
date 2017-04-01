@@ -46,9 +46,9 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 <div class="section group">
 	<div class="col span_1_of_1">
 		<h3>Recommended Reading</h3>
-		<h4><a href="http://howtoelementaryos.org/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-install-flash-for-midori-in-elementary-os">How to Install Flash for Midori</a></h4>
+		<h4><a href="/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
+		<h4><a href="/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
+		<h4><a href="/how-to-install-flash-for-midori-in-elementary-os">How to Install Flash for Midori</a></h4>
 	</div>
 </div>
 

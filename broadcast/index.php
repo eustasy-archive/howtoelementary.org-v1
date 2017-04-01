@@ -24,7 +24,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 					require $entry;
 					echo '
 				<div class="col span_5_of_12">
-					<h2><a href="http://howtoelementaryos.org/' . $Canonical . '">' . $TextTitle . '</a></h2>
+					<h2><a href="/' . $Canonical . '">' . $TextTitle . '</a></h2>
 					<p class="textright"><small>' . date ('d/m/Y', filemtime($entry)) .'</small></p>
 					<p>' . $Description . '</p>
 				</div>';

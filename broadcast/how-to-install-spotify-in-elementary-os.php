@@ -3,7 +3,7 @@
 	$TextTitle = 'How to Install Spotify';
 	$WebTitle = 'How to Install Spotify in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
 	$Canonical = 'how-to-install-spotify-in-elementary-os';
-	$FeaturedImage = 'http://howtoelementaryos.org/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png';
+	$FeaturedImage = '/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png';
 	$Description = 'While Spotify has no supported release for Linux as such, their is, hidden away a little bit, a nice little "Previewspsp" release that runs reasonably well, even if it is not the most native of applications.';
 	$Keywords = 'How to Install Spotify elementary os';
 	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
@@ -36,7 +36,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 		<p></p>
 	</div>
 	<div class="col span_1_of_2">
-		<a target="_blank" href="http://howtoelementaryos.org/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png"><img class="round floatright" alt="Spotify in elementary OS" src="http://howtoelementaryos.org/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png"></a>
+		<a target="_blank" href="/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png"><img class="round floatright" alt="Spotify in elementary OS" src="/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png"></a>
 	</div>
 </div>
 
@@ -49,9 +49,9 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 <div class="section group">
 	<div class="col span_1_of_1">
 		<h3>Recommended Reading</h3>
-		<h4><a href="http://howtoelementaryos.org/how-to-install-flash-for-midori-in-elementary-os">How to Install Flash for Midori</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
-		<h4><a href="http://howtoelementaryos.org/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
+		<h4><a href="/how-to-install-flash-for-midori-in-elementary-os">How to Install Flash for Midori</a></h4>
+		<h4><a href="/how-to-disable-overlay-scrollbars-in-elementary-os">How to Disable Overlay Scrollbars</a></h4>
+		<h4><a href="/how-to-display-hidden-auto-start-entries-in-elementary-os">How to Display Hidden Auto-Start Entries</a></h4>
 	</div>
 </div>
 

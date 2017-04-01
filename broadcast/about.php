@@ -25,7 +25,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 	<div class="col span_5_of_12">
 		<h2 id="technical">technical</h2>
-		<p><a href="http://howtoelementaryos.org/">how to _______ elementary os</a> is hosted by <a href="https://www.digitalocean.com/?refcode=eca8f5e3972c">Digital Ocean</a> on a <a href="http://www.ubuntu.com/">Ubuntu</a> powered Server. <a href="http://nginx.org/‎">Nginx</a> and <a href="http://php.net/">PHP</a> have the critical roles of serving our content.</p>
+		<p><a href="/">how to _______ elementary os</a> is hosted by <a href="https://www.digitalocean.com/?refcode=eca8f5e3972c">Digital Ocean</a> on a <a href="http://www.ubuntu.com/">Ubuntu</a> powered Server. <a href="http://nginx.org/‎">Nginx</a> and <a href="http://php.net/">PHP</a> have the critical roles of serving our content.</p>
 		<p>This site was entirely developed using <a href="https://launchpad.net/scratch">Scratch</a> on <a href="http://elementaryos.org">elementary os</a>.</p>
 	</div>
 
@@ -38,10 +38,10 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	<div class="col span_5_of_12">
 		<h2 id="license">license</h2>
 		<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
-		<p><a rel="license" class="cc" href="http://www.eustasy.org/licenses/#cc">c</a>  This is a <a href="http://creativecommons.org/">Creative Commons</a> license.</p>
-		<p><a rel="license" class="cc" href="http://www.eustasy.org/licenses/#by">b</a>  You must provide attribution to <a href="http://howtoelementaryos.org/">how to _______ elementary os</a> when you display or use our work.</p>
-		<p><a rel="license" class="cc" href="http://www.eustasy.org/licenses/#nc">n</a> You may not display or use this work as a source for commercial or financial gain.</p>
-		<p><a rel="license" class="cc" href="http://www.eustasy.org/licenses/#sa">a</a> You must share your content in an equal or more legally free manner.</p>
+		<p><a rel="license" class="cc" href="https://eustasy.org/licenses/#cc">c</a>  This is a <a href="http://creativecommons.org/">Creative Commons</a> license.</p>
+		<p><a rel="license" class="cc" href="https://eustasy.org/licenses/#by">b</a>  You must provide attribution to <a href="/">how to _______ elementary os</a> when you display or use our work.</p>
+		<p><a rel="license" class="cc" href="https://eustasy.org/licenses/#nc">n</a> You may not display or use this work as a source for commercial or financial gain.</p>
+		<p><a rel="license" class="cc" href="https://eustasy.org/licenses/#sa">a</a> You must share your content in an equal or more legally free manner.</p>
 	</div>
 
 	<div class="col span_2_of_12"><br></div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/Article">
+<html lang="en" itemscope itemtype="https://schema.org/Article">
 <head>
 
 	<meta charset="utf-8">
@@ -18,12 +18,12 @@
 
 	<title><?php echo $WebTitle; ?></title>
 
-	<link rel="canonical" href="//howtoelementaryos.org/<?php echo $Canonical; ?>">
+	<link rel="canonical" href="/<?php echo $Canonical; ?>">
 	<link rel="publisher" href="https://plus.google.com/102500040175226797826">
-	<link rel="icon" href="http://eustasy.org/favicon.ico">
-	<link rel="shortcut icon" href="http://eustasy.org/favicon.ico">
-	<link rel="stylesheet" media="all" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic|Raleway:200,300,400">
-	<link rel="stylesheet" media="all" href="//howtoelementaryos.org/css/style.css">
+	<link rel="icon" href="https://eustasy.org/favicon.ico">
+	<link rel="shortcut icon" href="https://eustasy.org/favicon.ico">
+	<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic|Raleway:200,300,400">
+	<link rel="stylesheet" media="all" href="/css/style.css">
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -56,7 +56,7 @@
 	<div id="skiptomain"><a href="#content">skip to main content</a></div>
 
 	<header>
-		<h1><a href="//howtoelementaryos.org/">how to elementary os</a></h1>
+		<h1><a href="/">how to elementary os</a></h1>
 		<!--
 		<nav class="section group">
 			<div class="col span_1_of_9">
@@ -85,9 +85,9 @@
 			</div>
 		-->
 			<div class="col span_1_of_9 floatright social">
-				<a rel="publisher" href="https://www.facebook.com/howtoelementaryos"><img src="//howtoelementaryos.org/images/social-facebook.png"></a>
-				<a rel="publisher" href="https://plus.google.com/102500040175226797826"><img src="//howtoelementaryos.org/images/social-google-plus.png"></a>
-				<a rel="publisher" href="https://twitter.com/howtoelementary"><img src="//howtoelementaryos.org/images/social-twitter.png"></a>
+				<a rel="publisher" href="https://www.facebook.com/howtoelementaryos"><img src="/images/social-facebook.png"></a>
+				<a rel="publisher" href="https://plus.google.com/102500040175226797826"><img src="/images/social-google-plus.png"></a>
+				<a rel="publisher" href="https://twitter.com/howtoelementary"><img src="/images/social-twitter.png"></a>
 			</div>
 		<!--
 		</nav>
