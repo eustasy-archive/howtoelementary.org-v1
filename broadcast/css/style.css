@@ -5,7 +5,7 @@
 	margin: 1% 0;
 }
 .group:before, .group:after {
-	content: "";
+	content: '';
 	display: table;
 }
 .group:after { clear: both; }
@@ -713,7 +713,7 @@ html {
 .ie7 img,
 .iem7 img { -ms-interpolation-mode: bicubic; }
 
-input[type='checkbox"],
+input[type='checkbox'],
 input[type='radio'] { box-sizing: border-box; }
 
 input[type='search'] {
