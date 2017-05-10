@@ -19,25 +19,12 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 <div class="section group">
 	<div class="col span_1_of_2">
-		<h3>3.2</h3>
-		<p>_Default_</p>
+		<h3>4.4</h3>
+		<p>This is the default in elementary OS Loki.</p>
 	</div>
 	<div class="col span_1_of_2">
-		<h3>3.5</h3>
-		<p>_Not_</p>
-		<input type="text" class="clickselect" value="sudo apt-get install linux-generic-lts-quantal" />
-	</div>
-</div>
-
-<div class="section group">
-	<div class="col span_1_of_2">
-		<h3>3.8</h3>
-		<p>_Not_</p>
-		<input type="text" class="clickselect" value="sudo apt-get install linux-generic-lts-raring" />
-	</div>
-	<div class="col span_1_of_2">
-		<h3>Latest "Stable" (Unstable)</h3>
-		<p></p>
+		<h3>4.8</h3>
+		<input type="text" class="clickselect" value="sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04" />
 	</div>
 </div>
 
@@ -52,4 +39,4 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php require '../footer.php'; }
