@@ -24,7 +24,7 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 	<div class="col span_1_of_2">
 		<h3>4.8</h3>
-		<input type="text" class="clickselect" value="sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04 xserver-xorg-input-libinput-hwe-16.04" />
+		<input type="text" class="clickselect" value="sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04 xserver-xorg-core-hwe-16.04 xserver-xorg-input-all-hwe-16.04 xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-libinput-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04 xserver-xorg-input-wacom-hwe-16.04" />
 	</div>
 </div>
 
