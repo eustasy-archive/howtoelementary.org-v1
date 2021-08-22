@@ -6,7 +6,7 @@
 		</div>
 		<div class="col span_4_of_12">
 			<h4>about</h4>
-			<p><a href="/">how to _______ elementary os</a> is a site dedicated to providing high quality, beautiful guides, tutorials and terminal command references for elementary OS.</p>
+			<p><a href="/">how to _______ elementary os</a> is a site dedicated to providing guides, tutorials, and terminal command references for elementary OS.</p>
 		</div>
 		<div class="col span_2_of_12 mediumclear">
 			<ul>

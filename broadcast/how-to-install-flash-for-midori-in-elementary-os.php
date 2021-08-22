@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Install Flash for Midori';
-	$WebTitle = 'How to Install Flash for Midori in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-install-flash-for-midori-in-elementary-os';
-	$FeaturedImage = '/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png';
-	$Description = 'One of the most requested things when dealing with elementary OS is the lack of Flash. Instead of suggesting different ways for each architecture to deal with this issue, we have lovingly crafted a small script for the use of any elementary system.';
-	$Keywords = 'How to Install Flash Midori elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Install Flash for Midori';
+$WebTitle = 'How to Install Flash for Midori in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-install-flash-for-midori-in-elementary-os';
+$FeaturedImage = '/images/how-to-install-flash-for-midori-in-elementary-os/midori-settings.png';
+$Description = 'One of the most requested things when dealing with elementary OS is the lack of Flash. Instead of suggesting different ways for each architecture to deal with this issue, we have lovingly crafted a small script for the use of any elementary system.';
+$Keywords = 'How to Install Flash Midori elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 <h2>Install Flash for Midori</h2>
 <p>One of the most requested things when dealing with elementary OS is the lack of Flash. Installing the <span class="code">flashplugin-installer</span> package works for Chromium and Firefox, but the bundled browser, Midori, will not detect this on 64bit systems. Instead of suggesting different ways for each architecture to deal with this issue, we have lovingly crafted a small script for the use of any elementary system.</p>
@@ -74,4 +69,5 @@ Install plugin /home/user/.mozilla/plugins/libflashplayer.32.so</textarea>
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';

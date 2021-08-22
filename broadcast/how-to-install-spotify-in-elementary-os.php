@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Install Spotify';
-	$WebTitle = 'How to Install Spotify in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-install-spotify-in-elementary-os';
-	$FeaturedImage = '/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png';
-	$Description = 'While Spotify has no supported release for Linux as such, their is, hidden away a little bit, a nice little "Previewspsp" release that runs reasonably well, even if it is not the most native of applications.';
-	$Keywords = 'How to Install Spotify elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Install Spotify';
+$WebTitle = 'How to Install Spotify in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-install-spotify-in-elementary-os';
+$FeaturedImage = '/images/how-to-install-spotify-in-elementary-os/spotify-in-elementary-os.png';
+$Description = 'While Spotify has no supported release for Linux as such, their is, hidden away a little bit, a nice little "Previewspsp" release that runs reasonably well, even if it is not the most native of applications.';
+$Keywords = 'How to Install Spotify elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 <h2>Install Spotify</h2>
 <div class="section group">
@@ -55,4 +50,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';

@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Silence the Bell';
-	$WebTitle = 'How to Silence the Bell in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-silence-the-bell-in-elementary-os';
-	$FeaturedImage = '';
-	$Description = 'I am going to go out on a limb here, and presume you have at some point heard a little "duhm" noise when trying to scroll to far, or backspace when a box is empty, or some similar basic error. I happen to find these little reminders quite informative, but to some people they can be plain annoying.';
-	$Keywords = 'How to Silence Disable bell Alarm elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Silence the Bell';
+$WebTitle = 'How to Silence the Bell in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-silence-the-bell-in-elementary-os';
+$FeaturedImage = '';
+$Description = 'I am going to go out on a limb here, and presume you have at some point heard a little "duhm" noise when trying to scroll to far, or backspace when a box is empty, or some similar basic error. I happen to find these little reminders quite informative, but to some people they can be plain annoying.';
+$Keywords = 'How to Silence Disable bell Alarm elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 
 
@@ -36,4 +31,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';

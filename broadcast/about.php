@@ -1,17 +1,12 @@
 <?php
-
-	$WebTitle = 'about &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'about';
-	$FeaturedImage = '';
-	$Description = '';
-	$Keywords = '';
-	$Author = '';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$WebTitle = 'about &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'about';
+$FeaturedImage = '';
+$Description = '';
+$Keywords = '';
+require '../global.php';
+require '../header.php';
+?>
 
 <div class="section group">
 
@@ -51,4 +46,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';

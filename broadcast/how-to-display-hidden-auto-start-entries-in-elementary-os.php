@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Display Hidden Auto-Start Entries';
-	$WebTitle = 'How to Display Hidden Auto-Start Entries in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-display-hidden-auto-start-entries-in-elementary-os';
-	$FeaturedImage = '';
-	$Description = 'By default, your machine is chock-full of Startup Applications you\'re not allowed to see, and you can significantly speed up your startup times by disabling the ones you don\'t need.';
-	$Keywords = 'How to Display Hidden Auto-Start Entries elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Display Hidden Auto-Start Entries';
+$WebTitle = 'How to Display Hidden Auto-Start Entries in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-display-hidden-auto-start-entries-in-elementary-os';
+$FeaturedImage = '';
+$Description = 'By default, your machine is chock-full of Startup Applications you\'re not allowed to see, and you can significantly speed up your startup times by disabling the ones you don\'t need.';
+$Keywords = 'How to Display Hidden Auto-Start Entries elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 <h2>Display Hidden Auto-Start Entries</h2>
 <div class="section group">
@@ -44,4 +39,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';

@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<meta name="description" content="<?php echo $Description; ?>">
 	<meta name="keywords" content="<?php echo $Keywords; ?>">
-	<meta name="author" content="<?php echo $Author; ?>">
 	<meta name="title" content="<?php echo $WebTitle; ?>">
 	<meta name="image" content="<?php echo $FeaturedImage; ?>">
 	<meta itemprop="name" content="<?php echo $WebTitle; ?>">
@@ -83,8 +82,7 @@
 			</div>
 		-->
 			<div class="col span_1_of_9 floatright social">
-				<a rel="publisher" href="https://www.facebook.com/howtoelementaryos"><img src="/images/social-facebook.png"></a>
-				<a rel="publisher" href="https://plus.google.com/102500040175226797826"><img src="/images/social-google-plus.png"></a>
+				<a rel="publisher" href="https://www.facebook.com/howtoelementary"><img src="/images/social-facebook.png"></a>
 				<a rel="publisher" href="https://twitter.com/howtoelementary"><img src="/images/social-twitter.png"></a>
 			</div>
 		<!--

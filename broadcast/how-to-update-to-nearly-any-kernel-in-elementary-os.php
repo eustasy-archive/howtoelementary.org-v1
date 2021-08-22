@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Update to Nearly any Kernel';
-	$WebTitle = 'How to Update to Nearly any Kernel in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-update-to-nearly-any-kernel-in-elementary-os';
-	$FeaturedImage = '';
-	$Description = '';
-	$Keywords = 'How to Update Nearly any Kernel elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Update to Nearly any Kernel';
+$WebTitle = 'How to Update to Nearly any Kernel in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-update-to-nearly-any-kernel-in-elementary-os';
+$FeaturedImage = '';
+$Description = '';
+$Keywords = 'How to Update Nearly any Kernel elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 <h2>How to Update to Nearly any Kernel</h2>
 <p></p>
@@ -39,4 +34,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; }
+<?php
+require '../footer.php';

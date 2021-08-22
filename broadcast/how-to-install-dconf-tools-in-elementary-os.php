@@ -1,18 +1,13 @@
 <?php
-
-	$TextTitle = 'How to Install DConf-Tools';
-	$WebTitle = 'How to Install DConf-Tools in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
-	$Canonical = 'how-to-install-dconf-tools-in-elementary-os';
-	$FeaturedImage = '';
-	$Description = 'A commonly used program to access the more complex settings and options available to you is DConf Editor, a part of the DConf-Tools package.';
-	$Keywords = 'How to Install DConf-Tools dconf tools editor elementary os';
-	$Author = 'https://plus.google.com/u/0/105729291739660012806?rel=author';
-
-	require '../global.php';
-
-if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
-
-	require '../header.php'; ?>
+$TextTitle = 'How to Install DConf-Tools';
+$WebTitle = 'How to Install DConf-Tools in elementary OS &nbsp;&middot;&nbsp; how to elementary os';
+$Canonical = 'how-to-install-dconf-tools-in-elementary-os';
+$FeaturedImage = '';
+$Description = 'A commonly used program to access the more complex settings and options available to you is DConf Editor, a part of the DConf-Tools package.';
+$Keywords = 'How to Install DConf-Tools dconf tools editor elementary os';
+require '../global.php';
+require '../header.php';
+?>
 
 <h2>Install DConf-Tools</h2>
 <p>A commonly used program to access the more complex settings and options available to you is DConf Editor, a part of the DConf-Tools package.</p>
@@ -37,4 +32,5 @@ if (htmlentities($Request['path'], ENT_QUOTES, 'UTF-8') == '/' . $Canonical) {
 	</div>
 </div>
 
-<?php require '../footer.php'; } ?>
+<?php
+require '../footer.php';
